@@ -16,6 +16,7 @@ function App() {
   return (
     <div>
       {'hello react'}
+      {'hello'}
       {value && <div>this is div</div>}
       <button onClick={toggle}>click</button>
     </div>
