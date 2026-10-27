@@ -1,0 +1,85 @@
+body {
+
+    display: flex;
+    margin: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search .search-bar {
+    outline: none;
+    border: none;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #b1e7f0;
+
+}
+
+.search button {
+    text-align: center;
+    line-height: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: none;
+}
+
+.weather .city {
+    position: relative;
+    right: -20px;
+    top: 20px;
+    font-size: 28px;
+}
+
+.weather .comment {
+    position: relative;
+    top: 20px;
+
+}
+
+.weather .temp {
+    position: relative;
+    right: -120px;
+}
+
+.flex img {
+    position: relative;
+    top: -20px;
+}
+
+.flex span {
+    position: relative;
+    top: -40px;
+}
+
+.other {
+    font-size: 16px;
+
+}
+
+.other .humidity {
+    margin-bottom: 10px;
+}
+
+/* .card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(15px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    color: white;
+} */
