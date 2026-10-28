@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import HooksTest from './test-code/hooks-test'
 // import './index.css'
 // import classnames from 'classnames'
 // import { useRef } from 'react'
@@ -19,6 +20,7 @@ function App() {
       {'hello'}
       {value && <div>this is div</div>}
       <button onClick={toggle}>click</button>
+      <HooksTest />
     </div>
   );
 }
